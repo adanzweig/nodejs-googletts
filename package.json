@@ -1,0 +1,24 @@
+{
+  "name": "adanjz-googletts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "adanjz <adanzweig@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^5.0.1",
+    "fs": "^0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adanzweig/nodejs-googletts.git"
+  },
+  "bugs":{
+    "url":"https://github.com/adanzweig/nodejs-googletts/issues"
+  },
+  "homepage": "https://github.com/adanzweig/nodejs-googletts"
+}
