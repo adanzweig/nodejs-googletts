@@ -10,7 +10,7 @@ const fs = require('fs');
  * @param {string} outputFile - The path where the generated audio file will be saved.
  * @returns {Promise<string>} - The path of the generated audio file.
  */
-export async function transformTextToSpeachWithGoogle(text, outputFile){
+async function transformTextToSpeachWithGoogle(text, outputFile){
     try{
         // Create a new instance of Text-to-Speech client
         const client = new textToSpeach.TextToSpeechClient();
@@ -42,3 +42,6 @@ export async function transformTextToSpeachWithGoogle(text, outputFile){
     await transformTextToSpeachWithGoogle('Test text i want to hear','output.mp3');
 })()
 */
+module.exports = {
+    transformTextToSpeachWithGoogle
+}
